@@ -9,7 +9,7 @@
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Babun - Business & Consulting HTML5 Template">
-	<meta name='og:image' content='images/assets/ogg.png'>
+	<meta name='og:image' content='images/logo/loader.png'>
 	<!-- For IE -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!-- For Resposive Device -->
@@ -23,7 +23,7 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="#1A4137">
 	<title>Beauld Communications Inc.</title>
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+	<link rel="icon" type="image/png" sizes="56x56" href="./images/logo/loader.png">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
 	<!-- Main style sheet -->
@@ -76,22 +76,40 @@
 				Theme Main Menu
 		============================================== 
 		-->
-		<header class="theme-main-menu menu-overlay menu-style-one white-vr sticky-menu">
-			<div class="inner-content position-relative">
-				<div class="top-header">
-					<div class="d-flex align-items-center justify-content-between">
+		<header class="theme-main-menu menu-overlay menu-style-two sticky-menu">
+            <div class="gap-fix info-row">
+                <div class="d-md-flex justify-content-between">
+                    <div class="greetings text-center"><span class="opacity-50">Hello!!</span> <span class="fw-500">Welcome to beauld.</span></div>
+                    <ul class="style-none d-none d-md-flex contact-info">
+                        <li class="d-flex align-items-center"><img src="images/lazy.svg" data-src="images/icon/icon_14.svg" alt="" class="lazy-img icon me-2"> <a href="mailto:debo@beauld.com" class="fw-500">debo@beauld.com</a></li>
+                        <li class="d-flex align-items-center"><img src="images/lazy.svg" data-src="images/icon/icon_15.svg" alt="" class="lazy-img icon me-2"> <a href="tel:+757 699-4478" class="fw-500">+757 699-4478</a></li>
+                    </ul>
+                </div>
+            </div>
+			<div class="inner-content gap-fix">
+				<div class="top-header position-relative">
+					<div class="d-flex align-items-center">
 						<div class="logo order-lg-0">
 							<a href="index.html" class="d-flex align-items-center">
-								<img src="images/logo/logo_01.svg" alt="">
+								<img src="images/logo/logo.png" height="35px" width="100px" alt="">
 							</a>
 						</div>
 						<!-- logo -->
-						<div class="right-widget ms-auto ms-lg-0 me-3 me-lg-0 order-lg-3">
+						<div class="right-widget order-lg-3 ms-auto">
 							<ul class="d-flex align-items-center style-none">
-								<li class="d-none d-md-block"><a href="contact.html" class="btn-one tran3s">Get in Touch</a></li>
+								<li class="d-flex align-items-center login-btn-one me-3 me-md-0">
+                                    <img src="images/lazy.svg" data-src="images/icon/icon_16.svg" alt="" class="lazy-img icon me-2"> 
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" class="fw-500">Login</a>
+                                </li>
+								<li class="d-none d-md-inline-block ms-3 ms-lg-5 me-3 me-lg-0">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" class="signup-btn-one icon-link">
+                                        <span>Signup</span>
+                                        <div class="icon rounded-circle d-flex align-items-center justify-content-center"><i class="bi bi-arrow-right"></i></div>
+                                    </a>
+                                </li>
 							</ul>
 						</div> <!--/.right-widget-->
-						<nav class="navbar navbar-expand-lg p0 order-lg-2">
+						<nav class="navbar navbar-expand-lg p0 ms-lg-5 order-lg-2">
 							<button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse"
 								data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
 								aria-label="Toggle navigation">
@@ -99,75 +117,23 @@
 							</button>
 							<div class="collapse navbar-collapse" id="navbarNav">
 								<ul class="navbar-nav align-items-lg-center">
-									<li class="d-block d-lg-none"><div class="logo"><a href="index.html" class="d-block"><img src="images/logo/logo_01.svg" alt=""></a></div></li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-											data-bs-auto-close="outside" aria-expanded="false">Home
-										</a>
-										<ul class="dropdown-menu">
-                                            <li><a href="index.html" class="dropdown-item"><span>Finance</span></a></li>
-                                            <li><a href="index-2.html" class="dropdown-item"><span>Business Consultancy</span></a></li>
-                                            <li><a href="index-3.html" class="dropdown-item"><span>Banking</span></a></li>
-                                            <li><a href="index-4.html" class="dropdown-item"><span>Payment Solution</span></a></li>
-                                            <li><a href="index-5.html" class="dropdown-item"><span>Digital Agency</span></a></li>
-                                            <li><a href="index-6.html" class="dropdown-item"><span>Marketing</span></a></li>
-											<li><a href="index-7.html" class="dropdown-item"><span>Insurance</span></a></li>
-											<li><a href="index-8.html" class="dropdown-item"><span>Tax Agency</span></a></li>
-                                        </ul>
+									<li class="d-block d-lg-none"><div class="logo"><a href="index.html" class="d-block"><img src="images/logo/logo.png" height="35px" width="100px" alt=""></a></div></li>
+									
+									
+									<li class="nav-item">
+										<a class="nav-link" href="./landing.html" role="button">Home</a>
 									</li>
-									<li class="nav-item dropdown mega-dropdown-sm">
-							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Pages
-										</a>
-						                <ul class="dropdown-menu">
-							                <li class="row gx-1">
-												<div class="col-lg-4">
-													<div class="menu-column">
-														<ul class="style-none mega-dropdown-list">
-															<li><a href="service-v1.html" class="dropdown-item"><span>Service v-1</span></a></li>
-															<li><a href="service-v2.html" class="dropdown-item"><span>Service v-2</span></a></li>
-															<li><a href="service-details.html" class="dropdown-item"><span>Service Details</span></a></li>
-															<li><a href="team-v1.html" class="dropdown-item"><span>Team V-1</span></a></li>
-															<li><a href="team-v2.html" class="dropdown-item"><span>Team V-2</span></a></li>
-															<li><a href="team-details.html" class="dropdown-item"><span>Team Details</span></a></li>
-														</ul>
-													</div> <!--/.menu-column -->
-												</div>
-												<div class="col-lg-4">
-													<div class="menu-column">
-														<ul class="style-none mega-dropdown-list">
-															<li><a href="about-us-v1.html" class="dropdown-item"><span>About Us V-1</span></a></li>
-															<li><a href="about-us-v2.html" class="dropdown-item"><span>About Us V-2</span></a></li>
-															<li><a href="testimonial.html" class="dropdown-item"><span>Testimonial</span></a></li>
-															<li><a href="pricing.html" class="dropdown-item"><span>Pricing</span></a></li>
-															<li><a href="faq.html" class="dropdown-item"><span>FAQ’s</span></a></li>
-															<li><a href="404.html" class="dropdown-item"><span>404 Error</span></a></li>
-														</ul>
-													</div> <!--/.menu-column -->
-												</div>
-												<div class="col-lg-4">
-													<div class="menu-column">
-														<ul class="style-none mega-dropdown-list">
-															<li><a href="project-v1.html" class="dropdown-item"><span>Project V-1</span></a></li>
-															<li><a href="project-v2.html" class="dropdown-item"><span>Project V-2</span></a></li>
-															<li><a href="project-v3.html" class="dropdown-item"><span>Project V-3</span></a></li>
-															<li><a href="project-details-v1.html" class="dropdown-item"><span>Project Details V-1</span></a></li>
-															<li><a href="project-details-v2.html" class="dropdown-item"><span>Project Details V-2</span></a></li>
-														</ul>
-													</div> <!--/.menu-column -->
-												</div>
-											</li>
-						                </ul>
-						            </li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-											data-bs-auto-close="outside" aria-expanded="false">Shop
-										</a>
-										<ul class="dropdown-menu">
-											<li><a href="shop-grid.html" class="dropdown-item"><span>Shop</span></a></li>
-											<li><a href="shop-details.html" class="dropdown-item"><span>Shop Details</span></a></li>
-											<li><a href="cart.html" class="dropdown-item"><span>Cart</span></a></li>
-											<li><a href="checkout.html" class="dropdown-item"><span>Checkout</span></a></li>
-										</ul>
+									<li class="nav-item">
+										<a class="nav-link" href="services.html" role="button">Services</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="contact.html" role="button">Products</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="faq.html" role="button">Faqs</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="team.html" role="button">Team</a>
 									</li>
 									<li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -182,15 +148,23 @@
 									<li class="nav-item">
 										<a class="nav-link" href="contact.html" role="button">Contact Us</a>
 									</li>
-									<li class="d-md-none ps-2 pe-2"><a href="contact.html" class="btn-one w-100 mt-15 tran3s">Get in Touch</a></li>
+									<li class="d-md-none ps-2 pe-2">
+										<a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" class="signup-btn-one icon-link w-100 mt-20">
+											<span class="flex-fill text-center">Signup</span>
+											<div class="icon rounded-circle d-flex align-items-center justify-content-center"><i class="bi bi-arrow-right"></i></div>
+										</a>
+										<ul class="style-none contact-info m0 pt-30">
+											<li class="d-flex align-items-center p0 mt-15"><img src="images/lazy.svg" data-src="images/icon/icon_14.svg" alt="" class="lazy-img icon me-2"> <a href="mailto:debo@beauld.com" class="fw-500">debo@beauld.com</a></li>
+                        					<li class="d-flex align-items-center p0 mt-15"><img src="images/lazy.svg" data-src="images/icon/icon_15.svg" alt="" class="lazy-img icon me-2"> <a href="tel:+757 699-4478" class="fw-500">+757 699-4478</a></li>
+										</ul>
+									</li>
 								</ul>
 							</div>
 						</nav>
 					</div>
 				</div> <!--/.top-header-->
 			</div> <!-- /.inner-content -->
-		</header> 
-		<!-- /.theme-main-menu -->
+		</header>
 
 
 
@@ -421,86 +395,7 @@
 			Feedback Section One
 		============================================== 
 		-->
-		<div class="feedback-section-one top-border pt-80 pb-80">
-			<div class="container">
-				<div class="position-relative">
-					<div class="title-one sm-mb-40">
-						<h2>Words from <br> clients.</h2>
-					</div>
-					<!-- /.title-one -->
-					<div class="feedback-slider-one">
-						<div class="item">
-							<div class="feedback-block-one">
-								<div class="row align-items-end">
-									<div class="col-md-7 ms-auto order-md-last">
-										<blockquote>"Efficient problem-solving, insightful market analysis, and actionable plans made the consulting experience invaluable to our business's success."</blockquote>
-										<div class="d-flex align-items-center">
-											<img src="images/media/img_08.jpg" alt="" class="avatar rounded-circle">
-											<div class="ps-4">
-												<div class="name fw-bold text-dark">James Bond.</div>
-												<p class="fs-6 m0">CEO & Head of Sky Tech Inc.</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4 order-md-first">
-										<div class="d-flex align-items-center justify-content-between sm-mt-40">
-											<div class="line"></div>
-											<div class="count fw-500"><span class="text-dark">01</span>  /  03</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="feedback-block-one">
-								<div class="row align-items-end">
-									<div class="col-md-7 ms-auto order-md-last">
-										<blockquote>"Lorem ipsum, dolor sit amet consectetur elit. Asperiores unde inventore tenetur. Accusantium tenetur id cupiditate quibusdam."</blockquote>
-										<div class="d-flex align-items-center">
-											<img src="images/media/img_08.jpg" alt="" class="avatar rounded-circle">
-											<div class="ps-4">
-												<div class="name fw-bold text-dark">Rashed Kabir.</div>
-												<p class="fs-6 m0">CEO & Head of Sky Tech Inc.</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4 order-md-first">
-										<div class="d-flex align-items-center justify-content-between sm-mt-40">
-											<div class="line"></div>
-											<div class="count fw-500"><span class="text-dark">02</span>  /  03</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="feedback-block-one">
-								<div class="row align-items-end">
-									<div class="col-md-7 ms-auto order-md-last">
-										<blockquote>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga sed nobis eveniet nisi provident aut excepturi reiciendis officiis quo."</blockquote>
-										<div class="d-flex align-items-center">
-											<img src="images/media/img_08.jpg" alt="" class="avatar rounded-circle">
-											<div class="ps-4">
-												<div class="name fw-bold text-dark">Zubayer Hasan.</div>
-												<p class="fs-6 m0">CEO & Head of Sky Tech Inc.</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4 order-md-first">
-										<div class="d-flex align-items-center justify-content-between sm-mt-40">
-											<div class="line"></div>
-											<div class="count fw-500"><span class="text-dark">03</span>  /  03</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="icon d-flex align-items-center justify-content-center rounded-circle"><img src="images/lazy.svg" data-src="images/icon/icon_12.svg" alt="" class="lazy-img"></div>
-				</div>
-			</div>
-		</div>
+		
 		<!-- /.feedback-section-one -->
 
 
@@ -545,72 +440,7 @@
 			Team Section Three
 		=====================================================
 		-->
-		<div class="team-section-three light-bg position-relative pt-120 lg-pt-60 pb-130 lg-pb-60 mt-90 lg-mt-40">
-			<div class="container">
-				<div class="position-relative">
-					<div class="title-one mb-40 lg-mb-10 wow fadeInUp">
-						<h2>Our Advisor</h2>
-					</div>
-					<!-- /.title-one -->
-
-					<div class="row">
-						<div class="col-lg-3 col-sm-6 wow fadeInUp">
-							<div class="card-style-fifteen mt-35">
-								<div class="media d-flex align-items-center justify-content-center position-relative overflow-hidden">
-									<img src="images/lazy.svg" data-src="images/media/img_27.jpg" alt="" class="lazy-img w-100">
-									<a href="team-details.html" class="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"><i class="bi bi-arrow-up-right"></i></a>
-								</div>
-								<h4 class="fw-500 pt-20 m0">Zubayer Hasan</h4>
-								<div class="fs-6">Analysis</div>
-							</div>
-							<!-- /.card-style-fifteen -->
-						</div>
-						<div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-							<div class="card-style-fifteen mt-35">
-								<div class="media d-flex align-items-center justify-content-center position-relative overflow-hidden">
-									<img src="images/lazy.svg" data-src="images/media/img_28.jpg" alt="" class="lazy-img w-100">
-									<a href="team-details.html" class="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"><i class="bi bi-arrow-up-right"></i></a>
-								</div>
-								<h4 class="fw-500 pt-20 m0">Maria Escolova</h4>
-								<div class="fs-6">Senior Officer</div>
-							</div>
-							<!-- /.card-style-fifteen -->
-						</div>
-						<div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
-							<div class="card-style-fifteen mt-35">
-								<div class="media d-flex align-items-center justify-content-center position-relative overflow-hidden">
-									<img src="images/lazy.svg" data-src="images/media/img_29.jpg" alt="" class="lazy-img w-100">
-									<a href="team-details.html" class="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"><i class="bi bi-arrow-up-right"></i></a>
-								</div>
-								<h4 class="fw-500 pt-20 m0">Rashedul kabir</h4>
-								<div class="fs-6">Designer</div>
-							</div>
-							<!-- /.card-style-fifteen -->
-						</div>
-						<div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-							<div class="card-style-fifteen mt-35">
-								<div class="media d-flex align-items-center justify-content-center position-relative overflow-hidden">
-									<img src="images/lazy.svg" data-src="images/media/img_30.jpg" alt="" class="lazy-img w-100">
-									<a href="team-details.html" class="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"><i class="bi bi-arrow-up-right"></i></a>
-								</div>
-								<h4 class="fw-500 pt-20 m0">Cristinano Messi</h4>
-								<div class="fs-6">Finance Advisor</div>
-							</div>
-							<!-- /.card-style-fifteen -->
-						</div>
-					</div>
-
-					<div class="section-btn sm-mt-40">
-						<a href="team-v2.html" class="btn-five icon-link">
-							<span class="text">See all Experts</span>
-							<div class="icon tran3s rounded-circle d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-right"></i></div>
-						</a>
-					</div>
-				</div>
-			</div>
-            <img src="images/lazy.svg" data-src="images/shape/shape_05.svg" alt="" class="lazy-img shapes shape_01">
-            <img src="images/lazy.svg" data-src="images/shape/shape_05.svg" alt="" class="lazy-img shapes shape_02">
-		</div>
+		
 		<!-- /.team-section-three -->
 		
 
@@ -742,7 +572,7 @@
 									</a>
 								</div> 
 								<!-- logo -->
-								<p class="lh-sm mb-45 lg-mb-30">2190 Urban Terrace, Mirpur,  <br>Licensed in 50 states.</p>
+								<p class="lh-sm mb-45 lg-mb-30">2190 Urban Terrace, Mirpur</p>
 								<p class="m0"><a href="#">+757 699-4478</a></p>
 							</div>
 						</div>
@@ -752,9 +582,7 @@
 								<li><a href="index.html">Home</a></li>
 								<li><a href="pricing.html">Pricing Plan</a></li>
 								<li><a href="about-us-v1.html">About us</a></li>
-								<li><a href="service-v1.html">Our services</a></li>
-								<li><a href="project-v2.html">Portfolio</a></li>
-								<li><a href="service-v2.html">Features</a></li>
+								
 							</ul>
 						</div>
 						<div class="col-lg-2 col-sm-4 mb-20">
@@ -763,7 +591,7 @@
 								<li><a href="about-us-v2.html">About us</a></li>
 								<li><a href="blog-v2.html">Blogs</a></li>
 								<li><a href="faq.html">FAQ’s</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								
 							</ul>
 						</div>
 						<div class="col-xxl-2 col-lg-3 col-sm-4 mb-20">
@@ -772,7 +600,7 @@
 								<li><a href="contact.html">Terms of use</a></li>
 								<li><a href="contact.html">Terms & conditions</a></li>
 								<li><a href="contact.html">Privacy</a></li>
-								<li><a href="contact.html">Cookie policy</a></li>
+								
 							</ul>
 						</div>
 					</div>
@@ -798,7 +626,9 @@
 							</ul>
 						</div>
 						<div class="col-xl-4 col-lg-3 order-lg-1 mb-15">
-							<div class="copyright text-center text-lg-start order-lg-first">Copyright @2023 babun inc.</div>
+							<div class="copyright text-center text-lg-start order-lg-first">Copyright @2025 beauld inc. <br> Designed by A.O webtech</div>
+							
+							
 						</div>
 					</div>
 				</div>
@@ -807,127 +637,7 @@
 		</div> <!-- /.footer-three -->
 
 
-		<!-- Modal -->
-        <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen modal-dialog-centered">
-                <div class="container">
-                    <div class="user-data-form modal-content">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-						<div class="form-wrapper m-auto">
-							<ul class="nav nav-tabs border-0 w-100" role="tablist">
-								<li class="nav-item" role="presentation">
-									<button class="nav-link active" data-bs-toggle="tab" data-bs-target="#fc1" role="tab">Login</button>
-								</li>
-								<li class="nav-item" role="presentation">
-									<button class="nav-link" data-bs-toggle="tab" data-bs-target="#fc2" role="tab">Signup</button>
-								</li>
-							</ul>
-							<div class="tab-content mt-30">
-								<div class="tab-pane show active" role="tabpanel" id="fc1">
-									<div class="text-center mb-20">
-										<h2>Hi, Welcome Back!</h2>
-										<p>Still don't have an account? <a href="#">Sign up</a></p>
-									</div>
-									<form action="#">
-										<div class="row">
-											<div class="col-12">
-												<div class="input-group-meta position-relative mb-25">
-													<label>Email*</label>
-													<input type="email" placeholder="Youremail@gmail.com">
-												</div>
-											</div>
-											<div class="col-12">
-												<div class="input-group-meta position-relative mb-20">
-													<label>Password*</label>
-													<input type="password" placeholder="Enter Password" class="pass_log_id">
-													<span class="placeholder_icon"><span class="passVicon"><img src="images/icon/icon_13.svg" alt=""></span></span>
-												</div>
-											</div>
-											<div class="col-12">
-												<div class="agreement-checkbox d-flex justify-content-between align-items-center">
-													<div>
-														<input type="checkbox" id="remember">
-														<label for="remember">Keep me logged in</label>
-													</div>
-													<a href="#">Forget Password?</a>
-												</div> <!-- /.agreement-checkbox -->
-											</div>
-											<div class="col-12">
-												<button class="btn-four w-100 tran3s d-block mt-20">Login</button>
-											</div>
-										</div>
-									</form>
-								</div>
-								<!-- /.tab-pane -->
-								<div class="tab-pane" role="tabpanel" id="fc2">
-									<div class="text-center mb-20">
-										<h2>Register</h2>
-										<p>Already have an account? <a href="#">Login</a></p>
-									</div>
-									<form action="#">
-										<div class="row">
-											<div class="col-12">
-												<div class="input-group-meta position-relative mb-25">
-													<label>Name*</label>
-													<input type="text" placeholder="Zubayer Hasan">
-												</div>
-											</div>
-											<div class="col-12">
-												<div class="input-group-meta position-relative mb-25">
-													<label>Email*</label>
-													<input type="email" placeholder="zubayerhasan@gmail.com">
-												</div>
-											</div>
-											<div class="col-12">
-												<div class="input-group-meta position-relative mb-20">
-													<label>Password*</label>
-													<input type="password" placeholder="Enter Password" class="pass_log_id">
-													<span class="placeholder_icon"><span class="passVicon"><img src="images/icon/icon_13.svg" alt=""></span></span>
-												</div>
-											</div>
-											<div class="col-12">
-												<div class="agreement-checkbox d-flex justify-content-between align-items-center">
-													<div>
-														<input type="checkbox" id="remember2">
-														<label for="remember2">By hitting the "Register" button, you agree to the <a href="#">Terms conditions</a> & <a href="#">Privacy Policy</a></label>
-													</div>
-												</div> <!-- /.agreement-checkbox -->
-											</div>
-											<div class="col-12">
-												<button class="btn-four w-100 tran3s d-block mt-20">Sign up</button>
-											</div>
-										</div>
-									</form>
-								</div>
-								<!-- /.tab-pane -->
-							</div>
-							
-							<div class="d-flex align-items-center mt-30 mb-10">
-								<div class="line"></div>
-								<span class="pe-3 ps-3 fs-6">OR</span>
-								<div class="line"></div>
-							</div>
-							<div class="row">
-								<div class="col-sm-6">
-									<a href="#" class="social-use-btn d-flex align-items-center justify-content-center tran3s w-100 mt-10">
-										<img src="images/icon/google.png" alt="">
-										<span class="ps-3">Signup with Google</span>
-									</a>
-								</div>
-								<div class="col-sm-6">
-									<a href="#" class="social-use-btn d-flex align-items-center justify-content-center tran3s w-100 mt-10">
-										<img src="images/icon/facebook.png" alt="">
-										<span class="ps-3">Signup with Facebook</span>
-									</a>
-								</div>
-							</div>
-						</div>
-						<!-- /.form-wrapper -->
-                    </div>
-                    <!-- /.user-data-form -->
-                </div>
-            </div>
-        </div>
+		
 
 
 		<button class="scroll-top">
